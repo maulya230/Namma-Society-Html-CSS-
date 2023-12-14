@@ -83,6 +83,10 @@ body {
   opacity: 1;
   text-align: left;
 }
+.nav-home:hover{ 
+  font-size: 150%;
+}
+
 .nav-features {
   width: 102px;
   color: rgba(0,0,0,1);
@@ -94,6 +98,9 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: left;
+}
+.nav-features:hover{ 
+  font-size: 150%;
 }
 
 .nav-aboutus {
@@ -108,6 +115,10 @@ body {
   opacity: 1;
   text-align: left;
 }
+.nav-aboutus:hover{ 
+  font-size: 150%;
+}
+
 .nav-contactus {
   width: 130px;
   color: rgba(0,0,0,1);
@@ -120,10 +131,13 @@ body {
   opacity: 1;
   text-align: left;
 }
+.nav-contactus:hover{ 
+  font-size: 150%;
+}
+
 .nav-button {
   width: 145px;
   height: 60px;
-  background: url("../images/v10_42.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -133,50 +147,40 @@ body {
   left: 1264px;
   overflow: hidden;
 }
-.v10_43 {
+
+
+.login {
   width: 145px;
   height: 60px;
-  background: url("../images/v10_43.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
+  position: absolute;
+  color: 39386A;
+  background-color: rgba(191,228,255,1);
   top: 0px;
   left: 0px;
-  overflow: hidden;
-}
-.button {
-  width: 145px;
-  height: 60px;
-  background: rgba(191,228,255,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
+  font-family: Outfit;
+  font-weight: Bold;
+  font-size: 27px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  overflow: hidden;
+  
 }
-.login {
-  width: 144px;
-  color: rgba(57,56,106,1);
-  position: absolute;
-  top: 16px;
-  left: 0px;
-  font-family: Outfit;
-  font-weight: SemiBold;
-  font-size: 20px;
-  opacity: 1;
-  text-align: center;
+
+a{
   text-decoration: none;
 }
+
+.login:hover{ 
+  background-color: rgb(59, 129, 180);
+}
+
 .home-contact{
   width: 181px;
   height: 60px;
-  background: url("assets/home.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -186,6 +190,14 @@ body {
   left: 611px;
   overflow: hidden;
 }
+.home-button:hover {
+  background-color: rgb(59, 129, 180);
+}
+
+.home-contactus:hover{
+  color: white;
+}
+
 .home-button {
   width: 180px;
   height: 60px;
@@ -199,8 +211,10 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
-  
 }
+
+  
+
 .home-contactus {
   width: 179px;
   color: rgba(57,56,106,1);
@@ -214,6 +228,9 @@ body {
   text-align: center;
   text-decoration: none;
 }
+
+
+
 .features-bg {
   width: 100%;
   height: 852px;
@@ -237,7 +254,7 @@ body {
   text-align: left;
 }
 
-.v10_58 {
+.box1 {
   width: 556px;
   height: 281px;
   background: rgba(0,0,0,0.46000000834465027);
@@ -254,7 +271,7 @@ body {
   height: 281px;
 
 }
-.v11_59 {
+.box2 {
   width: 556px;
   height: 281px;
   background: rgba(0,0,0,0.46000000834465027);
@@ -264,7 +281,7 @@ body {
   left: 739px;
   overflow: hidden;
 }
-.v11_60 {
+.box3 {
   width: 556px;
   height: 281px;
   background: rgba(0,0,0,0.46000000834465027);
@@ -274,7 +291,7 @@ body {
   left: 145px;
   overflow: hidden;
 }
-.v11_61 {
+.box4 {
   width: 556px;
   height: 281px;
   background: rgba(0,0,0,0.46000000834465027);
@@ -284,7 +301,7 @@ body {
   left: 739px;
   overflow: hidden;
 }
-.v11_62 {
+.box1-font {
   width: 399px;
   height: 47px;
   background: rgba(255,255,255,0.800000011920929);
@@ -294,7 +311,7 @@ body {
   left: 223px;
   overflow: hidden;
 }
-.v11_64 {
+.box1-font1 {
   width: 368px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -306,7 +323,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v11_65 {
+.box2-font {
   width: 399px;
   height: 47px;
   background: rgba(255,255,255,0.800000011920929);
@@ -316,7 +333,7 @@ body {
   left: 817px;
   overflow: hidden;
 }
-.v11_66 {
+.box2-font2 {
   width: 266px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -328,7 +345,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v11_67 {
+.box3-font {
   width: 399px;
   height: 47px;
   background: rgba(255,255,255,0.800000011920929);
@@ -338,7 +355,7 @@ body {
   left: 223px;
   overflow: hidden;
 }
-.v11_68 {
+.box3-font3 {
   width: 171px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -350,7 +367,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v11_69 {
+.box4-font {
   width: 399px;
   height: 47px;
   background: rgba(255,255,255,0.800000011920929);
@@ -360,7 +377,7 @@ body {
   left: 817px;
   overflow: hidden;
 }
-.v11_70 {
+.box4-font4 {
   width: 356px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -372,17 +389,17 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v11_71 {
+.aboutus-img {
   width: 615px;
   height: 508px;
-  background: rgba(217,217,217,1);
+  background: rgb(217, 217, 217);
   opacity: 1;
   position: absolute;
   top: 1848px;
   left: 825px;
   overflow: hidden;
 }
-.v11_72 {
+.aboutus-font {
   width: 232px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -390,46 +407,35 @@ body {
   left: 91px;
   font-family: Inika;
   font-weight: Bold;
-  font-size: 55px;
+  font-size: 54px;
   opacity: 1;
   text-align: left;
 }
-.v11_82 {
+
+.footer {
   width: 100%;
   height: 237px;
-  background: url("../images/v11_82.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background: rgba(57,56,106,1);
   opacity: 1;
   position: absolute;
   top: 2395px;
   left: 0px;
   overflow: hidden;
 }
-.v11_83 {
-  width: 100%;
-  height: 237px;
-  background: rgba(57,56,106,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v11_84 {
+.footer-text {
   width: 358px;
-  color: rgba(255,255,255,1);
+  color: rgb(255, 255, 255);
   position: absolute;
-  top: 61px;
+  top: 2456px;
   left: 995px;
   font-family: Bitter;
   font-weight: Medium;
   font-size: 20px;
   opacity: 1;
   text-align: left;
+  line-height: 193.6%;
 }
-.v11_85 {
+.copyright {
   width: 148px;
   color: rgba(255,255,255,1);
   position: absolute;
@@ -437,14 +443,14 @@ body {
   left: 92px;
   font-family: Bitter;
   font-weight: Medium;
-  font-size: 20px;
+  font-size: 17px;
   opacity: 1;
   text-align: left;
 }
 .name {
   color: #fff;
 }
-.v11_74 {
+.aboutus-para {
   width: 695px;
   color: rgba(0,0,0,1);
   position: absolute;
@@ -454,7 +460,8 @@ body {
   font-weight: Regular;
   font-size: 24px;
   opacity: 1;
-  text-align: justified;
+  text-align: justify;
+line-height: 193.6%;
 } 
 
 
