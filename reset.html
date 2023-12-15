@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Outfit&display=swap" rel="stylesheet" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <title>Reset password</title>
+    
+</head>
+
+<body>
+    <section class="navigation">
+        <div id="logo"><a href="index.html"><img src="./assets/namma.png"></a></div>
+        <span class="navbar">Namma Society</span>
+    </section>
+    <div class="login-pg">
+        <div class="login-bgimg">
+            <img src="./assets/home.png">
+        </div>
+        <!-- <div class="v35_39"></div> -->
+        <div class="login-whitebg"></div>
+        <span class="reset-heading">RESET PASSWORD</span>
+        
+        
+        
+    <form>
+       
+        <label class="np-text">New Password:</label>
+        <input type="password" placeholder="********" class="np-input"  id="npInput"></input>
+        <div id="userIdError"></div>
+       
+        <label class="cp-text">Reset Password:</label>
+        <input type="password" placeholder="********" class="cp-input" id="cpInput"></input>
+        <div id="passwordError"></div>
+        <div class="btn-position">
+        <button class="reset-btn" onclick="showId()">RESET</button>
+        </div>
+       
+    </form>
+    </div>
+</body>
