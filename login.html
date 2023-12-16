@@ -7,6 +7,7 @@
     <link href="./css/login.css" rel="stylesheet" />
     <title>NS Login</title>
     <script src="./js/login.js"></script>
+
 </head>
 
 <body>
@@ -14,27 +15,23 @@
         <div id="logo"><a href="index.html"><img src="./assets/namma.png"></a></div>
         <span class="navbar">Namma Society</span>
     </section>
-    <div class="login-pg">
-        <div class="login-bgimg">
-            <img src="./assets/home.png">
+
+    <div class="login-whitebg"></div>
+    <span class="login-heading">Login</span>
+    <form>
+
+        <input type="text" placeholder="Enter your User ID" class="userid-input" id="userIdInput" required></input>
+        <div id="userIdError"></div>
+        <input type="password" placeholder="Enter your Password" class="password-input" id="passwordInput" required></input>
+        <div id="passwordError"></div>
+        <div class="btn-position">
+            <button class="proceed-btn" onclick="showId()">Proceed</button>
+
         </div>
-        <div class="login-whitebg"></div>
-        <span class="login-heading">LOGIN</span>
-        <form>
-            <label class="userid-text">User ID: </label>
-            <input type="text" placeholder="Saroja_9827" class="userid-input" id="userIdInput" required>
-            <div id="userIdError"></div>
-
-            <label class="password-text">Password:</label>
-            <input type="password" placeholder="********" class="password-input" id="passwordInput" required>
-            <div id="passwordError"></div>
-
-            <div class="btn-position">
-                <button class="login-btn" onclick="showId()">LOGIN</button>
-            </div>
-
-            <a href="forgot_password.html" class="forgot-password">Forgot Password ?</a>
-        </form>
+        <a href="./forgot_password.html" class="forgot-password">Forgot Password ?</a>
+    </form>
+    <div>
+        <img class="loginpg-img" src="./assets/loginpg.png"></img>
     </div>
 </body>
 
