@@ -6,32 +6,35 @@
     <link href="https://fonts.googleapis.com/css?family=Outfit&display=swap" rel="stylesheet" />
     <link href="./css/login.css" rel="stylesheet" />
     <title>NS Login</title>
+    <script src="./js/login.js"></script>
 </head>
 
 <body>
     <section class="navigation">
-        <div id="logo"><img src="./assets/namma.png"></div>
+        <div id="logo"><a href="index.html"><img src="./assets/namma.png"></a></div>
         <span class="navbar">Namma Society</span>
     </section>
     <div class="login-pg">
         <div class="login-bgimg">
             <img src="./assets/home.png">
         </div>
-        <!-- <div class="v35_39"></div> -->
         <div class="login-whitebg"></div>
         <span class="login-heading">LOGIN</span>
-    <form>
-        <!-- <div class="text-box-uid"></div> -->
-        <label class="userid-text">User ID: </label>
-        <input type="text" placeholder="Saroja_9827" class="userid-input"></input>
-        <!-- <div class="text-box-pass"></div> -->
-        <label class="password-text">Password:</label>
-        <input type="password" placeholder="********" class="password-input"></input>
-        <div class="btn-position">
-        <button class="login-btn">LOGIN</button>
-        </div>
-        <a href="/index.html" class="forgot-password">Forgot Password ?</span>
-    </form>
+        <form>
+            <label class="userid-text">User ID: </label>
+            <input type="text" placeholder="Saroja_9827" class="userid-input" id="userIdInput" required>
+            <div id="userIdError"></div>
+
+            <label class="password-text">Password:</label>
+            <input type="password" placeholder="********" class="password-input" id="passwordInput" required>
+            <div id="passwordError"></div>
+
+            <div class="btn-position">
+                <button class="login-btn" onclick="showId()">LOGIN</button>
+            </div>
+
+            <a href="forgot_password.html" class="forgot-password">Forgot Password ?</a>
+        </form>
     </div>
 </body>
 
